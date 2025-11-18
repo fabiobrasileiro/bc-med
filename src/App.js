@@ -149,14 +149,7 @@ function App() {
         <p>For Healthcare Professionals in British Columbia</p>
       </header>
 
-      {/* Disclaimer */}
-      <div className="disclaimer">
-        <h3>⚠️ IMPORTANT DISCLAIMER</h3>
-        <p>
-          This tool is intended for use by qualified healthcare professionals within British Columbia only. 
-          The recommendations provided are based on general guidelines and must not replace individual clinical judgment.
-        </p>
-      </div>
+     
 
       {/* Main Content */}
       <div className="main-container">
@@ -312,6 +305,15 @@ function App() {
             </div>
           )}
         </div>
+        
+      </div>
+       {/* Disclaimer */}
+      <div className="disclaimer">
+        <h3>⚠️ IMPORTANT DISCLAIMER</h3>
+        <p>
+          This tool is intended for use by qualified healthcare professionals within British Columbia only. 
+          The recommendations provided are based on general guidelines and must not replace individual clinical judgment.
+        </p>
       </div>
     </div>
   );
