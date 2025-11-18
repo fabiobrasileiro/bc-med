@@ -22,7 +22,7 @@
 }
 
 .disclaimer {
-  background-color: #fed7aa;
+  background-color: #fafafa;
   border-left: 4px solid #ea580c;
   padding: 1rem;
   margin: 2rem 5rem;
@@ -31,12 +31,12 @@
 
 .disclaimer h3 {
   margin: 0 0 0.5rem 0;
-  color: #9a3412;
+  color: #272727;
 }
 
 .disclaimer p {
   margin: 0;
-  color: #92400e;
+  color: #454545;
   font-size: 0.9rem;
 }
 
