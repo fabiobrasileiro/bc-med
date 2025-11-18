@@ -167,24 +167,24 @@ function App() {
             <h3>Filters</h3>
             
             {/* Seletor de Tipo de Busca */}
-            <div className="search-type-selector">
-              <label>Search In:</label>
-              <select 
-                value={searchType} 
-                onChange={(e) => setSearchType(e.target.value)}
-              >
-                <option value="all">All Fields</option>
-                <option value="generic">Generic Name</option>
-                <option value="brand">Brand Names</option>
-                <option value="class">Drug Class</option>
-              </select>
-            </div>
+              {/* <div className="search-type-selector">
+                <label>Search In:</label>
+                <select 
+                  value={searchType} 
+                  onChange={(e) => setSearchType(e.target.value)}
+                >
+                  <option value="all">All Fields</option>
+                  <option value="generic">Generic Name</option>
+                  <option value="brand">Brand Names</option>
+                  <option value="class">Drug Class</option>
+                </select>
+              </div> */}
 
             {/* Barra de Busca */}
             <div className="search-box">
               <input
                 type="text"
-                placeholder={`Search ${searchType === 'all' ? 'all fields' : searchType}...`}
+                placeholder={`Search by generic or brand name...`}
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
               />

@@ -25,7 +25,7 @@
   background-color: #fed7aa;
   border-left: 4px solid #ea580c;
   padding: 1rem;
-  margin: 1rem;
+  margin: 2rem 5rem;
   border-radius: 8px;
 }
 
@@ -58,10 +58,10 @@
 }
 
 .search-box input {
-  width: 100%;
+  width: 90%;
   padding: 12px;
-  border: 2px solid #e5e7eb;
-  border-radius: 8px;
+  border: 2px solid #407CE2;
+  border-radius: 32px;
   font-size: 1rem;
   margin-bottom: 1rem;
 }
@@ -387,3 +387,4 @@
     gap: 1rem;
   }
 }
+
